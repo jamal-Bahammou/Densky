@@ -1,0 +1,37 @@
+.header {
+
+    &__tooth {
+        width: 4.2rem;
+        cursor: pointer;
+    }
+
+    &__icon {
+        width: 2.5rem;
+        height: 2.5rem;
+        fill: var(--color-dark-1);
+        cursor: pointer;
+
+        &-light {
+            fill: var(--color-light-3);
+        }
+    }
+}
+
+.notification {
+
+    &__box {
+        position: relative;
+    }
+
+    &__icon {
+        height: .5rem;
+        width: .5rem;
+        border-radius: 50%;
+        background-color: var(--color-red);
+
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    
+}
