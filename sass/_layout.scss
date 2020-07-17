@@ -22,10 +22,20 @@
 .main {
     width: 62%;
     height: 100%;
+    padding: 4rem 0;
 }
 
 .sidebar {
     width: 30%;
     height: 100%;
     background-color: var(--color-primary-light);
+}
+
+.section {
+    width: 85%;
+    margin: 0 auto;
+
+    &:not(:last-child) {
+        margin-bottom: 3rem;
+    }
 }
