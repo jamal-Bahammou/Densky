@@ -70,12 +70,15 @@ body {
   height: 80rem;
   margin: 8rem auto;
   background-color: var(--color-primary);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .header {
-  width: 9rem;
+  width: 8%;
   height: 100%;
-  padding: 2.5rem 0;
+  padding: 2.8rem 0;
   background-color: var(--color-light-1);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -90,4 +93,15 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.main {
+  width: 62%;
+  height: 100%;
+}
+
+.sidebar {
+  width: 30%;
+  height: 100%;
+  background-color: var(--color-primary-light);
 }
