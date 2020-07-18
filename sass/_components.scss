@@ -1,3 +1,6 @@
+
+// 🐪 HEADER CONTENT ---------------------------------------------------------------------
+
 .header {
 
     &__tooth {
@@ -42,7 +45,7 @@
 
 }
 
-// 🐪 MAIN CONTENT ------------------------------------
+// 🐪 MAIN CONTENT -----------------------------------------------------------------------
 
 .section {
 
@@ -154,7 +157,7 @@
             width: 60%;
             padding: 2.8rem;
             background-color: var(--color-light-1);
-            border-right: 1px var(--color-primary-dark) solid;
+            border-right: var(--border-light);
             display: flex;
             flex-direction: column;
             justify-content: space-between;
@@ -205,7 +208,7 @@
 
 }
 
-// 🐪 SIDEBAR CONTENT ----------------------------------------
+// 🐪 SIDEBAR CONTENT --------------------------------------------------------------------
 
 .discount {
     width: 100%;
@@ -245,12 +248,66 @@
     &__question {
         font-size: 1.1rem;
         line-height: 1.2rem;
-        color: #ADBDE0;
+        color: var(--color-text-2);
     }
 
     &__number {
         font-size: 2.5rem;
         color: var(--color-secondary);
+    }
+
+}
+
+.account {
+    margin: 4rem 0 0 0;
+    padding: 4rem 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+    &__image {
+        width: 12rem;
+        border-radius: 15%;
+    }
+    &__name {
+        font-size: 1.8rem;
+        font-weight: 500;
+        line-height: 2rem;
+        margin: 2rem 0 .5rem 0;
+    }
+    &__description {
+        font-size: 1.5rem;
+        font-weight: 500;
+        line-height: 2rem;
+        color: var(--color-text-2);
+    }
+    &__settings {
+        width: 2rem;
+        height: 2rem;
+        fill: var(--color-text-2);
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .phone {
+        margin: 1.5rem;
+        padding: 1rem 2.5rem;
+        border: var(--border-light);
+        border-radius: 100px;
+        display: flex;
+        &__icon {
+            width: 2.2rem;
+            height: 2.2rem;
+            margin-right: .8rem;
+            fill: var(--color-dark-1);
+        }
+        &__number {
+            font-size: 1.4rem;
+            font-weight: 500;
+            color: var(--color-dark-1);
+        }
     }
 
 }
