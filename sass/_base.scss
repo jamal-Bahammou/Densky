@@ -5,24 +5,14 @@
     
     --color-secondary: #0D53FC; 
     --color-secondary-dark: #0044E9;
-
     --color-red: #fc114c;
+
+    --color-text-1: #2B323B;
+    --color-text-2: #ADBDE0;
     
     --color-light-1: #FFF; 
-    --color-light-2: #92A1B7;
-    --color-light-3: #989EA9; 
-    --color-text-2: #ADBDE0;
-
-    --color-dark-1: #2B323B;
-    --color-dark-2: #3F3B3F;
-
-    --color-grey-light-1: #faf9f9;
-    --color-grey-light-2: #f4f2f2;
-    --color-grey-light-3: #f0eeee;
-    --color-grey-light-4: #ccc;
-    --color-grey-dark-1: #333;
-    --color-grey-dark-2: #777;
-    --color-grey-dark-3: #999;
+    --color-light-2: #E7F0F8;
+    --color-light-3: #92A1B7;
 
     --border-light: 1px var(--color-primary-dark) solid;
     
@@ -48,15 +38,6 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     line-height: 1.6;
-    color: var(--color-dark-1);
+    color: var(--color-text-1);
     background-color: var(--color-primary-dark);
 }
-
-// 1385 ==> 100%                1200px
-
-// 415 ==> sidebar 30%          360px 30%
-// 854 ==> main 62%             744px 62%
-// 116 ==> header 8%            96px 8%
-
-// 677 ==> appointement 50%     600px 50% ( 80% of main )
-// 122 ==> appoi height 8.8%

@@ -1,6 +1,6 @@
 .container {
     max-width: 120rem;
-    height: 73rem;
+    height: 78rem;
     margin: 8rem auto;
     background-color: var(--color-primary);
     box-shadow: var(--shadow-dark);
@@ -42,3 +42,12 @@
         margin-bottom: 3rem;
     }
 }
+
+// 1385 ==> 100%                1200px
+
+// 415 ==> sidebar 30%          360px 30%
+// 854 ==> main 62%             744px 62%
+// 116 ==> header 8%            96px 8%
+
+// 677 ==> appointement 50%     600px 50% ( 80% of main )
+// 122 ==> appoi height 8.8%
